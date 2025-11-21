@@ -2,6 +2,9 @@
 
 A modern, animated portfolio website built with React, showcasing my skills, projects, and experience in AI & Data Science.
 
+🌐 **Live Demo**: [View Portfolio](https://rithvik-birwaz.github.io/portfolio-website) (if deployed)  
+📦 **Repository**: [GitHub](https://github.com/RITHVIk-BIRWAZ/portfolio-website)
+
 ## 🚀 Features
 
 - **Modern UI Design** - Clean, professional interface with gradient accents
@@ -72,6 +75,25 @@ The portfolio is fully customizable. Update the content in each component file t
 - Certificates in `Certificates.jsx`
 
 Color scheme can be modified in `src/index.css` CSS variables.
+
+## 🚀 Deployment
+
+### Deploy to GitHub Pages
+
+1. Install gh-pages: `npm install --save-dev gh-pages`
+2. Add to `package.json`:
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist"
+   }
+   ```
+3. Run: `npm run deploy`
+
+### Deploy to Vercel/Netlify
+
+- **Vercel**: Connect your GitHub repo and deploy automatically
+- **Netlify**: Drag and drop the `dist` folder or connect your repo
 
 ## 📄 License
 
